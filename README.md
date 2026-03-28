@@ -4,6 +4,8 @@
 
 A visual editor for crafting structured lyrics for [Suno](https://suno.com) AI music generation. Supports Suno V5 Meta Tags, drag-and-drop song structure, and a bilingual (English / Chinese) interface.
 
+![Screenshot](screenshot-EN.png)
+
 ## Features
 
 - **Block-based editor** - Organize lyrics into sections like `[Verse]`, `[Chorus]`, `[Bridge]`, etc.

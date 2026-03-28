@@ -4,6 +4,8 @@
 
 一款可视化歌词编辑器，专为 [Suno](https://suno.com) AI 音乐生成平台设计。支持 Suno V5 Meta Tags、拖拽式歌曲结构编排，以及中英双语界面。
 
+![截图](screenshot-ZH.png)
+
 ## 功能特性
 
 - **分块编辑** - 将歌词按 `[Verse]`、`[Chorus]`、`[Bridge]` 等段落组织

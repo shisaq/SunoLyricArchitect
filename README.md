@@ -1,20 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Suno Lyric Architect
 
-# Run and deploy your AI Studio app
+[中文文档](README.zh-CN.md)
 
-This contains everything you need to run your app locally.
+A visual editor for crafting structured lyrics for [Suno](https://suno.com) AI music generation. Supports Suno V5 Meta Tags, drag-and-drop song structure, and a bilingual (English / Chinese) interface.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1ZeWYS2I2JMQE-2G0a87Konc9GSoI1kd2
+## Features
 
-## Run Locally
+- **Block-based editor** - Organize lyrics into sections like `[Verse]`, `[Chorus]`, `[Bridge]`, etc.
+- **Rich tag system** - Apply Structure, Vocal, Mood, Instrument, and Genre tags via drag-and-drop or click
+- **Global song settings** - Set song-wide style and meta tags
+- **Template save/load** - Save and reuse song structures as templates
+- **Live preview** - Preview the final formatted output before copying to Suno
+- **One-click copy** - Copy the full tagged lyrics to clipboard
+- **Bilingual UI** - Switch between English and Chinese interface
 
-**Prerequisites:**  Node.js
+## Getting Started
 
+**Prerequisites:** Node.js
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+```
+
+The app runs at `http://localhost:3000`.
+
+## Build
+
+```bash
+npm run build
+npm run preview
+```
+
+## Tech Stack
+
+- React 19
+- TypeScript
+- Vite
+- Lucide Icons
